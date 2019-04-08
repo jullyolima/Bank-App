@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS onlineBanking;
+CREATE DATABASE onlineBanking;

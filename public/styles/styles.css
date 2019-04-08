@@ -1,0 +1,223 @@
+body {
+  background-color: rgb(250, 250, 250);
+  font-family: 'Exo', sans-serif;
+}
+
+.navbar {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.list-group-item {
+  line-height: 2.5;
+}
+
+.container-fluid {
+  color: rgba(20, 130, 150, 0.3);
+}
+
+/* .container {
+  color: rgba(20, 130, 150, 0.3);
+} */
+
+/* Home Page CSS */
+
+.navbar {
+  margin-bottom: 15px;
+  padding-top: 20px;
+  color: white !important;
+}
+
+.navbar-light, .navbar-brand, .nav-link {
+  color: white !important;
+  margin-bottom: 20px;
+}
+
+.nav-link:hover {
+  background-color: white;
+  color: black !important;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.jumbotron {
+  margin: auto;
+  padding: none;
+  height: 150px;
+  line-height: 30px;
+  text-align: left;
+  color: white;
+  background-color: rgb(116, 116, 216);
+}
+
+.display-4 {
+  line-height: 20px;
+  color: white;
+}
+
+.banner {
+  margin-top: -100px;
+  background: url('../images/family.jpg') center center no-repeat;
+  height: 700px;
+  background-position: 50% 20%;
+  /* background-blend-mode: lighten; */
+  background-size: cover;
+  /* padding-top:250px; */
+  margin-bottom: 25px;
+}
+
+.display-4 {
+  color: grey;
+}
+
+.login {
+  float: right;
+  margin: auto;
+}
+
+.user-content {
+  margin-top: 25px;
+}
+
+.profile {
+  height: 400px;
+  width: 350px;
+  background-color: white;
+  ;
+  box-shadow: 1px 4px 20px #888888;
+  margin: auto;
+  color: black;
+}
+
+.abcd {
+  height: 125px;
+  width: 200px;
+  background-color: white;
+  box-shadow: 1px 4px 20px #888888;
+  margin: auto;
+  color: black;
+}
+
+.transactions {
+  height: 200px;
+  width: 518px;
+  background-color: white;
+  ;
+  box-shadow: 1px 4px 20px #888888;
+  margin: auto;
+  color: black;
+  margin-top: 65px;
+}
+
+/* Index Page CSS */
+
+.createAccount {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 600px;
+}
+
+#registration {
+  margin-top: -200px;
+}
+
+#login {
+  margin-top: 100px;
+}
+
+.border {
+  background-color: white;
+}
+
+.border .form-control, .input-group-text, .btn {
+  border-radius: 0px !important;
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  -ms-border-radius: 0px !important;
+  -o-border-radius: 0px !important;
+}
+
+.border h4 {
+  font-size: 22px;
+}
+
+#accountTypes {
+  padding-top: 33px;
+}
+
+.inputRowOne {
+  width: 100%;
+}
+
+.form-error {
+  border: 2px solid red;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.form-error::-webkit-input-placeholder {
+  color: red;
+}
+
+/* ======= Dashboard ======= */
+
+#main-dashboard {
+  margin-top: 50px;
+  padding: 25px;
+}
+
+#main-dashboard h1 {
+  font-size: 24px;
+}
+
+#account-overview {
+  margin-top: 50px;
+  padding: 25px;
+  min-height: 200px;
+  background-color: white;
+  -moz-box-shadow: 0 0 3px #ccc;
+  -webkit-box-shadow: 0 0 3px #ccc;
+  box-shadow: 0 0 3px #ccc;
+}
+
+.accounts{
+  min-height: 150px;
+  margin-top: 20px;
+  padding: 10px;
+  -moz-box-shadow: 0 0 3px #ccc;
+  -webkit-box-shadow: 0 0 3px #ccc;
+  box-shadow: 0 0 3px #ccc;
+}
+
+.accounts h1{
+  color: #007bff;
+}
+.accounts p{
+  font-size: 26px;
+}
+
+/* ======= 404 Page ======= */
+
+#not-found {
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  padding: 30px;
+  text-align: center;
+}
+
+#not-found h1{
+  font-size: 85px;
+  font-weight: 900;
+}
+
+#not-found p{
+  font-size: 65px;
+}
